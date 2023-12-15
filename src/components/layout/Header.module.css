@@ -14,6 +14,11 @@
   font-family: "RocGrotesk-regular";
 }
 
+.headerTitle{
+  text-rendering: optimizeLegibility;
+}
+
+}
 .headerContainer {
   display: flex;
   justify-content: space-between;
