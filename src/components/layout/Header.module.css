@@ -1,5 +1,9 @@
 @import "../../index.css";
-
+*{
+  
+  -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
+  appearance: none;
+  }
 .header {
   display: flex;
   height: 139px;
@@ -48,6 +52,8 @@ button {
   font-size: 18px;
   font-family: "RocGrotesk-regular";
   cursor: pointer;
+  -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
+  appearance: none;
   color: #000 !important;
 }
 
