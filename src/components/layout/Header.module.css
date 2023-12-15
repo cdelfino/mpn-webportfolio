@@ -1,0 +1,71 @@
+@import "../../index.css";
+
+.header {
+  display: flex;
+  height: 139px;
+  padding: 20px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-bottom: 3px solid #000;
+  background: #fff;
+  font-family: "RocGrotesk-regular";
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.headerToggles {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.translateButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 18px;
+  font-family: "RocGrotesk-regular";
+  cursor: pointer;
+}
+.button:hover {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "RocGrotesk-bold" !important;
+}
+
+.activeButton {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "RocGrotesk-bold";
+}
+
+button:hover {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "RocGrotesk-bold";
+}
+
+@media screen and (max-width: 375px) {
+  .translateButtons {
+    display: none;
+  }
+  .header{
+    height: 94px;
+  }
+}

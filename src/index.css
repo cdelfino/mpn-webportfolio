@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Definir la variante 'RocGrotesk' para Regular */
+@font-face {
+  font-family: 'RocGrotesk-regular';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Definir la variante 'RocGrotesk' para Heavy */
+@font-face {
+  font-family: 'RocGrotesk-heavy';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-heavy.otf') format('truetype');
+  font-weight: 800; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RocGrotesk-bold';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-bold.otf') format('truetype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+/* Definir la variante 'RocGrotesk' para ExtraBold */
+@font-face {
+  font-family: 'RocGrotesk-extrabold';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-extrabold.otf') format('truetype');
+  font-weight: 800; /* Puedes ajustar esto según el peso de la variante */
+  font-style: normal;
+}
+
+/* Definir la variante 'RocGrotesk' para ExtraLight */
+@font-face {
+  font-family: 'RocGrotesk-extralight';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-extralight.otf') format('truetype');
+  font-weight: 200; 
+  font-style: normal;
+}
+
+/* Definir la variante 'RocGrotesk' para Light */
+@font-face {
+  font-family: 'RocGrotesk-light';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-light.otf') format('truetype');
+  font-weight: 300; 
+  font-style: normal;
+}
+
+/* Definir la variante 'RocGrotesk' para Thin */
+@font-face {
+  font-family: 'RocGrotesk-thin';
+  src: url('./assets/fonts/Fontspring-DEMO-rocgrotesk-thin.otf') format('truetype');
+  font-weight: 100; 
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
