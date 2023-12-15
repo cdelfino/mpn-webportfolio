@@ -1,0 +1,11 @@
+@import "./index.css";
+
+.title {
+  font-family: "RocGrotesk-extrabold";
+  -webkit-text-stroke: 3px black; /* Contorno con prefijo para WebKit (Safari, Chrome) */
+  text-stroke: 3px black; /* Contorno sin prefijo, se espera mayor compatibilidad en el futuro */
+  color: transparent;
+  font-size: 120px;
+
+  text-align: center;
+}
