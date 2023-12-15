@@ -57,6 +57,11 @@ button {
   color: #000 !important;
 }
 
+button a{
+    -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
+  appearance: none;
+  color: #000 !important;
+}
 .button:hover {
   font-weight: 800;
   font-size: 18px;
