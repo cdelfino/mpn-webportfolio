@@ -47,7 +47,9 @@ button {
   font-size: 18px;
   font-family: "RocGrotesk-regular";
   cursor: pointer;
+  color: #000;
 }
+
 .button:hover {
   font-weight: 800;
   font-size: 18px;
