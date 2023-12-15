@@ -54,13 +54,13 @@ button {
   cursor: pointer;
   -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
   appearance: none;
-  color: #000 !important;
+  color: grey !important;
 }
 
 button a{
     -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
   appearance: none;
-  color: #000 !important;
+  color: #grey !important;
 }
 .button:hover {
   font-weight: 800;
@@ -72,6 +72,7 @@ button a{
   font-weight: 800;
   font-size: 18px;
   font-family: "RocGrotesk-bold";
+  color: grey !important;
 }
 
 button:hover {
