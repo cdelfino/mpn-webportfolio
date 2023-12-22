@@ -1,5 +1,9 @@
 @import "../../index.css";
 
+li {
+  list-style: none;
+}
+
 .header {
   display: flex;
   height: 139px;
@@ -33,6 +37,11 @@
   gap: 10px;
 }
 
+.menuIcon {
+  height: 50px;
+  width: 50px;
+}
+
 button {
   margin: 0;
   padding: 0;
@@ -59,6 +68,42 @@ button:hover {
   font-weight: 800;
   font-size: 18px;
   font-family: "RocGrotesk-bold";
+}
+
+.navBarContainer {
+  height: 621px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navBarList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  list-style: none;
+
+  font-family: "RocGrotesk-bold";
+}
+
+.navBarListItem {
+  display: flex;
+  width: 732px;
+  padding: 20px 0px 20px 120px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 80px;
+  
+}
+
+.navBarListItem:first-of-type {
+  border-top: 1px solid #fff;
 }
 
 @media screen and (max-width: 375px) {
