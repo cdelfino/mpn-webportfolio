@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSpring, animated } from "react-spring";
 import styles from "./Header.module.css";
 import menu from "../../../public/assets/imgs/menu.png";
 import logo from "../../../public/assets/imgs/logo.svg";
@@ -6,16 +7,28 @@ import asterisk from "../../../public/assets/imgs/asterisk.svg";
 
 const Header = () => {
   const [activeButton, setActiveButton] = useState("ES");
+  const [isMenuClosed, setIsMenuClosed] = useState(true);
 
   const handleButtonClick = (language) => {
     setActiveButton(language);
+  };
+
+  const menuAnimation = useSpring({
+    maxHeight: isMenuClosed ? 0 : 1000,
+    opacity: isMenuClosed ? 0 : 1,
+    overflow: "hidden",
+    config: { duration: 200 },
+  });
+
+  const handleMenuToggle = () => {
+    setIsMenuClosed(!isMenuClosed);
   };
 
   return (
     <div className={styles.navBar}>
       <div className={styles.header}>
         <div className={styles.headerContainer}>
-          <img className={styles.logo} src={logo}></img>
+          <img className={styles.logo} src={logo} alt="Logo" />
           <div className={styles.headerToggles}>
             <div className={styles.translateButtons}>
               <button
@@ -40,14 +53,17 @@ const Header = () => {
                 IN
               </button>
             </div>
-            <button>
+            <button onClick={handleMenuToggle}>
               <img src={menu} alt="Menu Icon" className={styles.menuIcon} />
             </button>
           </div>
         </div>
       </div>
       <div>
-        <div className={styles.navBarContainer}>
+        <animated.div
+          className={`${styles.navBarContainer}`}
+          style={menuAnimation}
+        >
           <ul className={styles.navBarList}>
             <li className={styles.navBarListItem}>
               <img src={asterisk} alt="Asterisk" />
@@ -62,7 +78,7 @@ const Header = () => {
               <p>Contacto</p>
             </li>
           </ul>
-        </div>
+        </animated.div>
       </div>
     </div>
   );
