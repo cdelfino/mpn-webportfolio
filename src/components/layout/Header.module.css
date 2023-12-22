@@ -3,11 +3,12 @@
 li {
   list-style: none;
 }
-*{
-  
+
+* {
   -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
   appearance: none;
-  }
+}
+
 .header {
   display: flex;
   height: 139px;
@@ -22,12 +23,11 @@ li {
   font-family: "RocGrotesk-regular";
 }
 
-.headerTitle{
+.headerTitle {
   text-rendering: optimizeLegibility;
-  font-family: 'Roc Grotesk', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roc Grotesk", "Helvetica", "Arial", sans-serif;
 }
 
-}
 .headerContainer {
   display: flex;
   justify-content: space-between;
@@ -63,14 +63,13 @@ button {
   cursor: pointer;
   -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
   appearance: none;
-  color: grey !important;
 }
 
-button a{
-    -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
+button a {
+  -webkit-appearance: none; /* Para WebKit (Safari, Chrome) */
   appearance: none;
-  color: #grey !important;
 }
+
 .button:hover {
   font-weight: 800;
   font-size: 18px;
@@ -81,7 +80,7 @@ button a{
   font-weight: 800;
   font-size: 18px;
   font-family: "RocGrotesk-bold";
-  color: grey !important;
+  color: #000 !important;
 }
 
 button:hover {
@@ -98,7 +97,6 @@ button:hover {
   width: 100%;
   display: flex;
   align-items: center;
-  
 }
 
 .navBarList {
@@ -119,7 +117,6 @@ button:hover {
   gap: 10px;
   border-bottom: 1px solid #fff;
   font-size: 80px;
-  
 }
 
 .navBarListItem:first-of-type {
