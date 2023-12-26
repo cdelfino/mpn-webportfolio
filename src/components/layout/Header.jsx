@@ -4,6 +4,7 @@ import styles from "./Header.module.css";
 import menu from "../../../public/assets/imgs/menu.png";
 import logo from "../../../public/assets/imgs/logo.svg";
 import asterisk from "../../../public/assets/imgs/asterisk.svg";
+import arrow from "../../../public/assets/imgs/arrow-outward.png";
 
 const Header = () => {
   const [activeButton, setActiveButton] = useState("ES");
@@ -78,6 +79,24 @@ const Header = () => {
               <p>Contacto</p>
             </li>
           </ul>
+
+          <div className={styles.navBarListDetails}>
+            <div className={styles.details}>
+              <div className={styles.itemTitle}>
+                <img src={arrow} alt="Arrow" />
+                <h1>SERVICIOS</h1>
+              </div>
+              <h3>Consultoría UX</h3>
+              <ul className={styles.list}>
+                <li>
+                  La consultoría UX es valiosa para las empresas que desean
+                  asegurarse de que sus productos o servicios no solo sean
+                  funcionales, sino que también proporcionen una experiencia
+                  positiva y satisfactoria para los usuarios.
+                </li>
+              </ul>
+            </div>
+          </div>
         </animated.div>
       </div>
     </div>
