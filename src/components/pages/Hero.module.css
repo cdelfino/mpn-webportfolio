@@ -1,0 +1,92 @@
+.heroContainer {
+  border-bottom: 2px solid #000;
+}
+
+.hero {
+  margin: 80px 125px;
+}
+
+.hero p {
+  font-family: Azeret Mono;
+  margin: 10px 20px;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 110%;
+}
+
+.gif {
+  display: block;
+  -webkit-user-select: none;
+  width: 112px;
+  height: 118px;
+  flex-shrink: 0;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-family: "RocGrotesk-bold";
+  -webkit-text-stroke: 3px black; /* Contorno con prefijo para WebKit (Safari, Chrome) */
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title1,
+.title2,
+.title3 {
+  line-height: 110px;
+  line-height: 100%; /* 120px */
+}
+
+.title1,
+.title3 {
+  margin-bottom: 26px;
+  font-size: 110px;
+  line-height: 110px;
+}
+
+.title2 {
+  margin-bottom: 18px;
+  color: transparent;
+  font-size: 120px;
+  letter-spacing: 3.6px;
+}
+
+.title3 {
+  padding-bottom: 59px;
+}
+
+.heroBar {
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 55px;
+}
+
+.gifContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 44px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.nImage {
+  position: absolute;
+  top: -15px;
+  width: 62px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1067px) {
+  .gif {
+    display: none;
+  }
+}

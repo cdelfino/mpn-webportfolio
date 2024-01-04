@@ -1,11 +1,12 @@
-import Test from "./Test";
 import Header from "./components/layout/Header";
-
+import Hero from "./components/pages/Hero";
+import MailIcon from "./components/layout/MailIcon";
 function App() {
   return (
     <div>
       <Header />
-      <Test />
+      <Hero />
+      <MailIcon/>
     </div>
   );
 }
