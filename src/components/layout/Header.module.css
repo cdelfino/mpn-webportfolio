@@ -100,7 +100,7 @@ button:hover {
   display: flex;
   align-items: center;
   color: #fff;
-  gap: 120px;
+  gap: 123px;
   justify-content: space-between;
 }
 
@@ -142,7 +142,6 @@ button:hover {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-right: 120px;
 }
 
@@ -171,6 +170,7 @@ button:hover {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  width: 100%;
   justify-content: center;
   font-family: "Azeret Mono", monospace;
 }
@@ -195,6 +195,60 @@ button:hover {
   font-size: 20px;
   margin-right: 10px;
   display: block;
+}
+
+.projectDetail {
+  display: flex;
+  flex-direction: column;
+  line-height: 25.2px !important;
+  padding-top: 0 !important;
+}
+
+.proyectTitle {
+  font-size: 18px;
+}
+
+.projectCharge {
+  font-size: 16px;
+}
+
+.projectYear {
+  font-size: 12px;
+}
+
+.projectsBar {
+  width: 65%;
+  height: 1px;
+  background-color: #fff;
+  margin: 32px 0;
+}
+
+.contactBar {
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.contactList {
+  width: 100%;
+  padding-top: 26px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  font-style: normal;
+}
+
+.contact img {
+  transform: rotate(270deg);
 }
 
 @media screen and (max-width: 375px) {
