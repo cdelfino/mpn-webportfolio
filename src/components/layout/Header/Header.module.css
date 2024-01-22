@@ -1,7 +1,9 @@
-@import "../../index.css";
+@import "../../../index.css";
+
 :root {
   --activeColor: #bd81f8;
 }
+
 li {
   list-style: none;
 }

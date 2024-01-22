@@ -1,0 +1,71 @@
+.aboutMeBar {
+  height: 1px;
+  background-color: #ffffff;
+  margin-bottom: 108px;
+}
+
+.aboutMe {
+  padding: 80px 125px;
+  background-color: #000;
+  color: #fff;
+}
+.name {
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  padding: 10px 20px;
+  line-height: 110%; /* 17.6px */
+}
+.aboutMe h1 {
+  font-family: "RocGrotesk-bold";
+  font-size: 60px;
+  line-height: 140%; /* 84px */
+}
+
+.aboutMe h3 {
+  font-family: "Azeret Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+}
+.exclMark {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+.aboutMeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.servicios {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.servicios p {
+  color: inherit;
+  text-decoration: none;
+  font-family: "RocGrotesk-bold";
+  font-size: 20px;
+  line-height: 32px; /* 160% */
+  padding-top: 8px;
+}
+
+.servicios img {
+  width: 17.333px;
+  height: 17.333px;
+}
+
+.servicesBar {
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0;
+}
