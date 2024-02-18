@@ -1,0 +1,12 @@
+.marqueeContainer {
+background-color: #BD81F8;
+font-family: "RocGrotesk-bold";
+width: 100%;
+color: white;
+font-size: 60px;
+letter-spacing: 3px;
+padding: 20px 0px 0px 23px;
+color: transparent;
+  -webkit-text-stroke: 2px white; /* Contorno con prefijo para WebKit (Safari, Chrome) */
+
+}

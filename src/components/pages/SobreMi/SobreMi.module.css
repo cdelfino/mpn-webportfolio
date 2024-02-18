@@ -40,6 +40,9 @@
   align-items: flex-start;
   gap: 60px;
 }
+.aboutMeInfo:first-of-type{
+  width: 40%;
+}
 
 .servicios {
   display: flex;
@@ -64,8 +67,12 @@
 }
 
 .servicesBar {
-  width: 80%;
+  width: 100%;
   height: 2px;
   background-color: #fff;
   margin: 20px 0;
+}
+.aboutMeLayout{
+  display: flex;
+  justify-content: space-evenly;
 }
