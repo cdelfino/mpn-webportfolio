@@ -135,7 +135,7 @@ button:hover {
 .navBarListItem:hover {
   color: var(--activeColor);
   img {
-    content: url("../../../public/assets/imgs/asteriskactive.svg");
+    content: url("../../../../public/assets/imgs/asteriskactive.svg");
   }
 }
 
