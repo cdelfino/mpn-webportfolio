@@ -1,5 +1,5 @@
-import styles from "./MarqueeStyles.module.css";
-const Marquee1 = () => {
+import styles from "./Marquees.module.css";
+const Construimos = () => {
   return (
     <div className={styles.marqueeContainer}>
       <h1> CONSTRUIMOS JUNTOS .</h1>
@@ -7,4 +7,4 @@ const Marquee1 = () => {
   );
 };
 
-export default Marquee1;
+export default Construimos;

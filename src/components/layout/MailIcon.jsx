@@ -8,7 +8,7 @@ const CornerIcon = () => {
     width: "93px",
     height: "93px",
     cursor: "pointer",
-  
+    zIndex: "100",
   };
 
   return (

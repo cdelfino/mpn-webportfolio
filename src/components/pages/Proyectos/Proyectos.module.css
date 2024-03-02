@@ -1,0 +1,102 @@
+.projects {
+  padding: 80px 125px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.name {
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  padding: 10px 20px;
+  line-height: 110%;
+}
+
+.projectsBar {
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 40px;
+}
+
+.projectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; /* Añadí position:relative para el contenedor de proyectos */
+}
+
+.card1,
+.card2,
+.card3 {
+  position: relative;
+  border-radius: 12px;
+  box-shadow: -10px 4px 25px 0px rgba(0, 0, 0, 0.5);
+  filter: grayscale(100%);
+  transition: all 0.7s ease;
+  object-position: center;
+  background-size: 399px;
+  background-position: center;
+  width: 392.367px;
+  height: 485px;
+}
+
+.card1 {
+  background-image: url("../../../../public/assets/imgs/card1.png");
+}
+
+.card2 {
+  background-image: url("../../../../public/assets/imgs/card2.png");
+}
+
+.card3 {
+  background-image: url("../../../../public/assets/imgs/card3.png");
+}
+
+.projectName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(7px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: "RocGrotesk-bold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.card1:hover .projectName,
+.card2:hover .projectName,
+.card3:hover .projectName {
+  opacity: 1;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  filter: grayscale(0%);
+  transform: scale(1.01);
+}
+.card3 .projectName {
+  color: black;
+}
+
+@media (max-width: 1438px) {
+  .projectsContainer {
+    flex-direction: column;
+  }
+
+  .projectsContainer .projectImage {
+    margin-bottom: 40px;
+  }
+}

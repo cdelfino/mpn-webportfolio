@@ -3,7 +3,10 @@ import Hero from "./components/pages/Hero/Hero";
 import MailIcon from "./components/layout/MailIcon";
 import SobreMi from "./components/pages/SobreMi/SobreMi";
 import Marquee from "react-fast-marquee";
-import Marquee1 from "./components/common/Marquee/Marquee1";
+import Construimos from "./components/common/Marquees/Construimos";
+import Hablamos from "./components/common/Marquees/Hablamos";
+import { Proyectos } from "./components/pages/Proyectos/Proyectos";
+
 function App() {
   return (
     <div>
@@ -11,8 +14,12 @@ function App() {
       <Hero />
       <MailIcon />
       <SobreMi />
-      <Marquee autoFill='true'>
-        <Marquee1/>
+      <Marquee autoFill="true">
+        <Construimos />
+      </Marquee>
+      <Proyectos />
+      <Marquee autoFill="true">
+        <Hablamos />
       </Marquee>
     </div>
   );
