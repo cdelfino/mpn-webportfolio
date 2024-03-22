@@ -1,8 +1,4 @@
-import React from "react";
 import styles from "./Proyectos.module.css";
-import card1 from "../../../../public/assets/imgs/card1.png";
-import card2 from "../../../../public/assets/imgs/card2.png";
-import card3 from "../../../../public/assets/imgs/card3.png";
 
 export const Proyectos = () => {
   return (

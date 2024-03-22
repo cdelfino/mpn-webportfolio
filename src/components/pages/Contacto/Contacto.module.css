@@ -1,0 +1,102 @@
+.contactContainer {
+  font-family: "RocGrotesk-bold";
+}
+
+.contactContainer h1 {
+  font-size: 60px;
+}
+
+.contactBox {
+  border-radius: 24px;
+  border: 2px solid #000;
+  margin: 80px 204px;
+  padding: 52px 120px;
+  display: flex;
+  grid-area: 130px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contactBoxLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 85%;
+}
+
+.contactBoxRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactBar {
+  width: 65%;
+  min-width: 290px;
+  height: 2px;
+  background-color: #000000;
+  margin-top: 15px;
+  margin-bottom: 17px;
+}
+
+.contactList {
+  width: 100%;
+  padding-top: 26px;
+  font-family: "RocGrotesk-bold";
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  font-style: normal;
+}
+
+.contact img {
+  transform: rotate(270deg);
+  filter: invert(1);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 19px;
+}
+
+.contactGrid img {
+  width: 210px;
+  height: 210px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1239px) {
+  .contactBox {
+    flex-direction: column;
+    align-items: center;
+    margin: 58px 146px;
+  }
+  .contactBar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 947px) {
+  .contactBox {
+    margin: 58px 46px;
+  }
+}
+@media (max-width: 641px) {
+  .contactBox {
+    margin: 58px 6px;
+    align-items: flex-start;
+  }
+  .contactBoxLeft {
+    width: 100%;
+  }
+}

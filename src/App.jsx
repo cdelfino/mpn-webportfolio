@@ -6,6 +6,8 @@ import Marquee from "react-fast-marquee";
 import Construimos from "./components/common/Marquees/Construimos";
 import Hablamos from "./components/common/Marquees/Hablamos";
 import { Proyectos } from "./components/pages/Proyectos/Proyectos";
+import Contacto from "./components/pages/Contacto/Contacto";
+import Footer from "./components/layout/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Marquee autoFill="true">
         <Hablamos />
       </Marquee>
+      <Contacto/>
+      <Footer/>
     </div>
   );
 }
