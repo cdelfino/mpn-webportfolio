@@ -3,7 +3,7 @@ import { useSpring } from "react-spring";
 import styles from "./Header.module.css";
 import menu from "../../../../public/assets/imgs/menu.png";
 import logo from "../../../../public/assets/imgs/logo.svg";
-import NavbarContainer from "../NavbarContainer";
+import NavbarContainer from "./NavbarContainer";
 
 const Header = () => {
   const [activeButton, setActiveButton] = useState("ES");

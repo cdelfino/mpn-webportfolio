@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import { animated } from "react-spring";
-import styles from "./Header/Header.module.css";
-import asterisk from "../../../public/assets/imgs/asterisk.svg";
-import arrow from "../../../public/assets/imgs/arrow-outward.png";
+import styles from "./Header.module.css";
+import asterisk from "../../../../public/assets/imgs/asterisk.svg";
+import arrow from "../../../../public/assets/imgs/arrow-outward.png";
 
 const NavbarContainer = ({ menuAnimation, handleItemHover, hoveredItem }) => {
   return (

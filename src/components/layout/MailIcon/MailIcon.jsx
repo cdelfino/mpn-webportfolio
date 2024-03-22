@@ -1,4 +1,4 @@
-import MailIcon from "../../../public/assets/imgs/mailicon.png";
+import MailIcon from "../../../../public/assets/imgs/mailicon.png";
 
 const CornerIcon = () => {
   const iconStyle = {
