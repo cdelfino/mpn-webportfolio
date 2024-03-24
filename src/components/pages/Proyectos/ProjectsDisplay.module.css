@@ -1,0 +1,52 @@
+.arrow {
+  filter: invert(1);
+}
+
+.projectDetail {
+  display: flex;
+  flex-direction: column;
+  line-height: 25.2px !important;
+  padding-top: 0 !important;
+}
+
+.proyectTitle {
+  font-size: 18px;
+}
+
+.projectCharge {
+  font-size: 16px;
+}
+
+.projectYear {
+  font-size: 12px;
+}
+
+.projectsBar {
+  width: 65%;
+  height: 1px;
+  background-color: black;
+  margin: 32px 0;
+}
+
+.projectsBar {
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 40px;
+}
+
+.behanceLink {
+  display: flex;
+  border: 2px solid #000;
+  border-radius: 100px;
+  padding: 10px 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  line-height: 32px; /* 160% */
+  text-transform: uppercase;
+  font-family: "RocGrotesk-bold";
+  color: #000;
+  text-decoration: none;
+}
