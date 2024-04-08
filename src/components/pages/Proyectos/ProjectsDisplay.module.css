@@ -50,3 +50,73 @@
   color: #000;
   text-decoration: none;
 }
+
+.projectInfo h1 {
+  font-family: "RocGrotesk-bold";
+  font-size: 40px;
+  line-height: 110%;
+  margin-bottom: 24px;
+}
+
+.projectInfoBox {
+  font-family: "Azeret Mono";
+  font-size: 18px;
+  line-height: 32px;
+  width: 32%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: "RocGrotesk-bold";
+  font-size: 20px;
+  line-height: 32px;
+  gap: 10px;
+}
+
+.title p {
+  margin-top: 7px;
+}
+
+.projectPicInfo {
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 57px;
+  justify-content: center;
+}
+
+.sync {
+  margin: 110px 120px;
+  font-family: "Azeret Mono";
+}
+
+.projectInfoBar {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 24px 0;
+}
+
+.projectPic1 {
+  width: 35%;
+}
+.headBar {
+  background-color: #000;
+  width: 70%;
+  height: 1px;
+  margin: 0 auto 30px auto;
+  position: relative;
+}
+
+.headBar::after {
+  content: "2023";
+  color: #000;
+  position: absolute;
+  top: -24px;
+  right: 12px;
+}

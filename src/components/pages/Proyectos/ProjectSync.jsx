@@ -2,7 +2,7 @@
 import arrow from "../../../../public/assets/imgs/arrow-outward.png";
 import styles from "./ProjectsDisplay.module.css";
 import sync1 from "../../../../public/assets/imgs/sync1.png";
-import sync2 from "../../../../public/assets/imgs/sync1.png";
+import sync2 from "../../../../public/assets/imgs/sync2.png";
 import Marquee from "react-fast-marquee";
 import Gracias from "../../common/Marquees/Gracias";
 import seeconds1 from "../../../../public/assets/imgs/seeconds1.png";
@@ -12,9 +12,10 @@ import behance from "../../../../public/assets/imgs/behance.png";
 const ProjectSync = () => {
   return (
     <div className={styles.sync}>
-      <div>
-        <div>
-          <div>
+      <div className={styles.headBar}></div>
+      <div className={styles.projectPicInfo}>
+        <div className={styles.projectInfoBox}>
+          <div className={styles.projectInfo}>
             <h1>SYNC CASE STUDY</h1>
             <p>
               Rediseño de plataforma que automatiza y agiliza todo el trabajo
@@ -23,13 +24,15 @@ const ProjectSync = () => {
             </p>
           </div>
           <div>
-            <div>
+            <div className={styles.projectInfoBar}></div>
+            <div className={styles.title}>
               <img className={styles.arrow} src={arrow} alt="Arrow" />
               <p>CHALLENGE</p>
             </div>
             <p>
               Elevar la calidad de la experiencia de usuario y reducir las
               fuentes de frustración.
+              <br />
               <br />
               Para alcanzar este propósito, hemos desarrollado un plan de acción
               que implica la reestructuración completa de esta plataforma como
@@ -38,9 +41,7 @@ const ProjectSync = () => {
             </p>
           </div>
         </div>
-        <div>
-          <img src={sync1} alt="SYNC" />
-        </div>
+        <img className={styles.projectPic1} src={sync1} alt="SYNC" />
       </div>
 
       <div>
@@ -62,7 +63,7 @@ const ProjectSync = () => {
           </p>
         </div>
         <div>
-          <img className={styles.arrow} src={sync2} alt="SYNC" />
+          <img className={styles.projectPic2} src={sync2} alt="SYNC" />
           <div>
             <div className={styles.projectsBar}></div>
             <h2>
@@ -73,7 +74,8 @@ const ProjectSync = () => {
               La creación del sistema de diseño nos ayudó a que el producto sea
               escalable, consistente e intuitivo.
             </p>
-            <a className={styles.behanceLink}
+            <a
+              className={styles.behanceLink}
               href="https://www.behance.net/gallery/181899983/Sync-Case-Study"
               target="_blank"
             >
