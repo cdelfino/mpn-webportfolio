@@ -91,7 +91,7 @@
 }
 
 .sync {
-  margin: 110px 120px;
+  margin: 110px 0px;
   font-family: "Azeret Mono";
 }
 
@@ -103,13 +103,13 @@
 }
 
 .projectPic1 {
-  width: 35%;
+  width: 27%;
 }
 .headBar {
   background-color: #000;
   width: 70%;
   height: 1px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 38px auto;
   position: relative;
 }
 
@@ -119,4 +119,71 @@
   position: absolute;
   top: -24px;
   right: 12px;
+}
+
+.steps {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "RocGrotesk-bold";
+  margin: 75px auto;
+  width: 73%;
+}
+
+.step1,
+.step2 {
+  margin-left: 101px;
+  display: flex;
+  align-items: flex-start;
+  gap: 92px;
+  justify-content: flex-start;
+}
+
+.steps h2 {
+  font-size: 19px;
+  margin-top: 4px;
+}
+.step1 {
+  margin-bottom: 75px;
+}
+
+.steps p {
+  font-size: 25px;
+  font-family: "RocGrotesk-regular";
+}
+
+.steps p span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.designSystem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  width: 73%;
+  margin: 0 auto;
+}
+
+.marquee {
+  margin-top: 80px;
+}
+
+.nextProject {
+  border-radius: 24px;
+  border: 2px solid #000;
+  width: 73%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 59px;
+}
+
+.nextProjectImg img {
+  width: 486px;
+  height: 415px;
 }

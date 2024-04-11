@@ -44,9 +44,9 @@ const ProjectSync = () => {
         <img className={styles.projectPic1} src={sync1} alt="SYNC" />
       </div>
 
-      <div>
-        <div>
-          <h2>SOLUCIÓN</h2>
+      <div className={styles.steps}>
+        <div className={styles.step1}>
+          <h2>SOLUCION</h2>
           <p>
             Crear un sistema de diseño el cual genere mayor consistencia en la
             plataforma, sumando un sistema de grillas para ordenar todos los
@@ -54,41 +54,44 @@ const ProjectSync = () => {
             writing a lo largo de los flujos de navegación.
           </p>
         </div>
-        <div>
+        <div className={styles.step2}>
           <h2>PROCESO</h2>
           <p>
-            Entrevista - Benchmarking - Armado de user persona - Creación de
-            userflow - Diseño de wireframes - Creación de un sistema de diseño -
-            Pruebas de usabilidad.
+            Entrevista <span>-</span> Benchmarking <span>-</span> Armado de user
+            persona <span>-</span> Creación de userflow <span>-</span> Diseño de
+            wireframes <span>-</span> Creación de un sistema de diseño{" "}
+            <span>-</span> Pruebas de usabilidad.
           </p>
         </div>
+      </div>
+
+      <div className={styles.designSystem}>
+        <img className={styles.projectPic2} src={sync2} alt="SYNC" />
         <div>
-          <img className={styles.projectPic2} src={sync2} alt="SYNC" />
-          <div>
-            <div className={styles.projectsBar}></div>
-            <h2>
-              <img className={styles.arrow} src={arrow} alt="Arrow"></img>DESIGN
-              SYSTEM
-            </h2>
-            <p>
-              La creación del sistema de diseño nos ayudó a que el producto sea
-              escalable, consistente e intuitivo.
-            </p>
-            <a
-              className={styles.behanceLink}
-              href="https://www.behance.net/gallery/181899983/Sync-Case-Study"
-              target="_blank"
-            >
-              <img src={behance} alt="Behance" />
-              ver el proyecto completo
-            </a>
-          </div>
+          <div className={styles.projectsBar}></div>
+          <h2>
+            <img className={styles.arrow} src={arrow} alt="Arrow"></img>DESIGN
+            SYSTEM
+          </h2>
+          <p>
+            La creación del sistema de diseño nos ayudó a que el producto sea
+            escalable, consistente e intuitivo.
+          </p>
+          <a
+            className={styles.behanceLink}
+            href="https://www.behance.net/gallery/181899983/Sync-Case-Study"
+            target="_blank"
+          >
+            <img src={behance} alt="Behance" />
+            ver el proyecto completo
+          </a>
         </div>
       </div>
-      <Marquee autoFill="true">
+
+      <Marquee className={styles.marquee} autoFill="true">
         <Gracias />
       </Marquee>
-      <div>
+      <div className={styles.nextProject}>
         <div>
           <h1>Próximo</h1>
           <ul>
@@ -107,7 +110,7 @@ const ProjectSync = () => {
             <li>2021</li>
           </ul>
         </div>
-        <div>
+        <div className={styles.nextProjectImg}>
           <img src={seeconds1} alt="Seeconds" />
         </div>
         <div>
